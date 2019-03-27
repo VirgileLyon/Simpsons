@@ -2,8 +2,14 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
+.App-logo.Working {
+  animation: App-logo-spin infinite 1s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-logo.Holidays{
+  animation: App-logo-spin infinite 40s linear;
   height: 40vmin;
   pointer-events: none;
 }
